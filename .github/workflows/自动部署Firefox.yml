@@ -51,8 +51,8 @@ on:
 
 env:
   DOCKER_IMAGE: ${{ secrets.DOCKER_IMAGE || 'ghcr.io/jlesage/firefox:v26.01.1' }}
-  MEMORY: ${{ secrets.MEMORY || '2048M' }}
-  DISK: ${{ secrets.DISK || '2048M' }}
+  MEMORY: ${{ secrets.MEMORY || '3072M' }}
+  DISK: ${{ secrets.DISK || '3072M' }}
 
 jobs:
   deploy-app:
