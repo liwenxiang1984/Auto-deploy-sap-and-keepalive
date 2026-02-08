@@ -50,7 +50,7 @@ on:
         default: ''
 
 env:
-  DOCKER_IMAGE: ${{ secrets.DOCKER_IMAGE || 'ghcr.io/jlesage/firefox:latest' }}
+  DOCKER_IMAGE: ${{ secrets.DOCKER_IMAGE || 'ghcr.io/jlesage/firefox:v26.01.1' }}
   MEMORY: ${{ secrets.MEMORY || '3072M' }}
   DISK: ${{ secrets.DISK || '3072M' }}
 
